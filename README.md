@@ -12,14 +12,15 @@ npm install passport
 npm install passport-google-oauth20
 npm i cookie-session
 npm start
-# Serve on localhost:5000
-npm run devStart
+# Serve on localhost:3000
+npm start
 
 ```
 
-## Run GRAPHQL Agent from browser
+## Test Oauth from browser
 
 ``` bash
-http://localhost:5000/graphql
+http://localhost:3000/logingoogle
+http://localhost:3000/logoutgoogle
 
 ```
